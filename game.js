@@ -33,11 +33,11 @@ if (false) {
     checkUpdate();
 }
 const managerConfig = {
-    DATA_FILE_MD5: '09a6cbacca65cf2e',
-    CODE_FILE_MD5: 'f8799e3d9551eacb',
+    DATA_FILE_MD5: '429b1b93285c8ae8',
+    CODE_FILE_MD5: '2e13085be259cc44',
     GAME_NAME: 'webgl',
     APPID: 'wx9f9f33e7e4ec3a94',
-    DATA_FILE_SIZE: "9884228",
+    DATA_FILE_SIZE: "9444746",
     OPT_DATA_FILE_SIZE: "$OPT_DATA_FILE_SIZE",
     DATA_CDN: '',
     
@@ -120,8 +120,8 @@ checkVersion().then((enable) => {
                 iconConfig: {
                     visible: true,
                     style: {
-                        width: 24,
-                        height: 24,
+                        width: 64,
+                        height: 23,
                         bottom: 20,
                     },
                 },
