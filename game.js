@@ -120,8 +120,8 @@ checkVersion().then((enable) => {
                 iconConfig: {
                     visible: true,
                     style: {
-                        width: 23,
-                        height: 23,
+                        width: 0,
+                        height: 0,
                         bottom: 20,
                     },
                 },
