@@ -18,24 +18,32 @@
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
     "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
     "useMultiFrameRuntime": true,
-    "useApiHook": false,
-    "disableUseStrict": false,
+    "useApiHook": true,
+    "useApiHostProcess": true,
     "babelSetting": {
-      "ignore": ["webgl.wasm.framework.unityweb.js"],
+      "ignore": [
+        "webgl.wasm.framework.unityweb.js"
+      ],
       "disablePlugins": [],
       "outputPath": ""
     },
-    "useIsolateContext": true,
-    "useCompilerModule": true,
-    "userConfirmedUseCompilerModuleSwitch": false,
+    "useIsolateContext": false,
+    "userConfirmedUseIsolateContext": true,
+    "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
-    "packNpmRelationList": []
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "disableUseStrict": false,
+    "showES6CompileOption": false,
+    "useCompilerPlugins": false,
+    "ignoreUploadUnusedFiles": true
   },
   "compileType": "game",
   "libVersion": "3.0.0",
   "appid": "wx9f9f33e7e4ec3a94",
-  "projectname": "product",
+  "projectname": "minigame",
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},
   "packOptions": {
@@ -52,11 +60,9 @@
   },
   "condition": {
     "search": {
-      "current": -1,
       "list": []
     },
     "conversation": {
-      "current": -1,
       "list": []
     },
     "game": {
@@ -64,7 +70,6 @@
       "list": []
     },
     "miniprogram": {
-      "current": -1,
       "list": []
     }
   }
