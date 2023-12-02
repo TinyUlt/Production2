@@ -33,11 +33,11 @@ if (false) {
     checkUpdate();
 }
 const managerConfig = {
-    DATA_FILE_MD5: '4a6c90207c239466',
-    CODE_FILE_MD5: '731063b831f50918',
+    DATA_FILE_MD5: '4195551697a3ba4c',
+    CODE_FILE_MD5: 'e6c6d6a86226afc4',
     GAME_NAME: 'webgl',
     APPID: 'wx9f9f33e7e4ec3a94',
-    DATA_FILE_SIZE: "10440584",
+    DATA_FILE_SIZE: "10267623",
     OPT_DATA_FILE_SIZE: "$OPT_DATA_FILE_SIZE",
     DATA_CDN: '',
     
